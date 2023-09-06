@@ -30,7 +30,7 @@
     "test": "jest",
     "lint:es": "eslint -c .eslintrc.js --ext .ts,.tsx ./",
     "lint:es-fix": "eslint --fix -c .eslintrc.js --ext .ts,.tsx ./",
-    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build",
     "build": "lough-build",
     "dev": "lough-build dev"
   },
